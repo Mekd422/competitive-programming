@@ -7,7 +7,7 @@ A curated collection of my solutions to competitive programming problems from va
 
 ## 📌 Platforms Covered
 - **Codeforces** ([Profile](https://codeforces.com/profile/yourhandle))
-- **LeetCode** ([Profile]([https://leetcode.com/yourhandle/](https://leetcode.com/u/Mekd_A/)))
+- **LeetCode** ([Profile](https://leetcode.com/yourhandle/](https://leetcode.com/u/Mekd_A/))
 - **AtCoder** ([Profile](https://atcoder.jp/users/yourhandle))
 - **CodeChef** ([Profile](https://www.codechef.com/users/yourhandle))
 - **CSES Problem Set** 
