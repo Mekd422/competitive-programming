@@ -1,0 +1,16 @@
+class Solution:
+    def isValid(self, s: str) -> bool:
+
+        stack = []
+        hash_chars = {')': '(', '}':'{', ']': '['}
+
+        for char in s:
+            if stack and char in hash_chars and stack[-1] == hash_chars[char]:
+                
+                stack.pop()
+            else:
+                stack.append(char)
+        return len(stack) == 0
+
+
+        
