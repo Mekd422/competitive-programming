@@ -5,8 +5,7 @@
 #         self.next = next
 class Solution:
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
-        left, right = ListNode(), ListNode()
-
+        left, right =  ListNode(), ListNode()
         lleft, rright = left, right
 
         while head:
@@ -17,7 +16,6 @@ class Solution:
                 rright.next = head
                 rright = rright.next
             head = head.next
-
         lleft.next = right.next
         rright.next = None
         return left.next
