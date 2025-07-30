@@ -1,6 +1,8 @@
 class Solution:
     def predictTheWinner(self, nums: List[int]) -> bool:
+        from functools import lru_cache
 
+        @lru_cache(None)
         def helper(i, j):
             if i == j :
                 return nums[i]
