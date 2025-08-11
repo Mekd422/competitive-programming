@@ -14,7 +14,7 @@ class Solution:
             ans.append(node.val)
             right = inorder(node.right)
         inorder(root)
-        ans.sort()
+        
 
         return ans[k - 1]
         
